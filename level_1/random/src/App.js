@@ -4,6 +4,7 @@ import Profile from './components/Profile';
 import Profileer from './components/Profileer';
 import Namer from './components/Namer';
 import Propsconcept from './components/Propsconcept';
+import Conditions from './components/Conditions';
 
 
 
@@ -26,6 +27,10 @@ function App() {
     <Namer/>
 
     <Propsconcept name={'siddharth'} age={34} rollNumber={123456789} />
+
+    <Conditions name={'tomato'} isPacked={true} />
+    <Conditions name={'tomato'} isPacked={false} />
+    <Conditions name={'tomato'} isPacked={true} />
     
 
     
