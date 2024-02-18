@@ -5,6 +5,7 @@ import Profileer from './components/Profileer';
 import Namer from './components/Namer';
 import Propsconcept from './components/Propsconcept';
 import Conditions from './components/Conditions';
+import ResnderList from './components/ResnderList';
 
 
 
@@ -32,6 +33,7 @@ function App() {
     <Conditions name={'tomato'} isPacked={false} />
     <Conditions name={'tomato'} isPacked={true} />
     
+    <ResnderList/>
 
     
 
