@@ -3,6 +3,7 @@ import './App.css';
 import Profile from './components/Profile';
 import Profileer from './components/Profileer';
 import Namer from './components/Namer';
+import Propsconcept from './components/Propsconcept';
 
 
 
@@ -23,6 +24,8 @@ function App() {
     <Profileer/>
 
     <Namer/>
+
+    <Propsconcept name={'siddharth'} age={34} rollNumber={123456789} />
     
 
     
